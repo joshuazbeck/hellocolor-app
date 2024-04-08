@@ -11,71 +11,36 @@
 		CBBC09B92BBF4ABB008B9D5B /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09A22BBF4ABB008B9D5B /* Text.swift */; };
 		CBBC09BA2BBF4ABB008B9D5B /* ColorRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09A42BBF4ABB008B9D5B /* ColorRepository.swift */; };
 		CBBC09BB2BBF4ABB008B9D5B /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09A62BBF4ABB008B9D5B /* ColorStyle.swift */; };
-		CBBC09BC2BBF4ABB008B9D5B /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09A72BBF4ABB008B9D5B /* Style.swift */; };
-		CBBC09BD2BBF4ABB008B9D5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBC09A92BBF4ABB008B9D5B /* Preview Assets.xcassets */; };
+		CBBC09BC2BBF4ABB008B9D5B /* StyleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09A72BBF4ABB008B9D5B /* StyleGroup.swift */; };
 		CBBC09BE2BBF4ABB008B9D5B /* ColorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09AB2BBF4ABB008B9D5B /* ColorService.swift */; };
-		CBBC09BF2BBF4ABB008B9D5B /* PalleteCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09AD2BBF4ABB008B9D5B /* PalleteCellView.swift */; };
-		CBBC09C02BBF4ABB008B9D5B /* PalleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09AE2BBF4ABB008B9D5B /* PalleteView.swift */; };
+		CBBC09BF2BBF4ABB008B9D5B /* PalleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09AD2BBF4ABB008B9D5B /* PalleteCell.swift */; };
+		CBBC09C02BBF4ABB008B9D5B /* PalleteGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09AE2BBF4ABB008B9D5B /* PalleteGroup.swift */; };
 		CBBC09C12BBF4ABB008B9D5B /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09B02BBF4ABB008B9D5B /* ColorView.swift */; };
 		CBBC09C22BBF4ABB008B9D5B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09B12BBF4ABB008B9D5B /* HomeView.swift */; };
 		CBBC09C32BBF4ABB008B9D5B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09B32BBF4ABB008B9D5B /* HomeViewModel.swift */; };
 		CBBC09C42BBF4ABB008B9D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBC09B52BBF4ABB008B9D5B /* Assets.xcassets */; };
-		CBBC09C52BBF4ABB008B9D5B /* Color_ClocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09B62BBF4ABB008B9D5B /* Color_ClocksApp.swift */; };
+		CBBC09C52BBF4ABB008B9D5B /* Hello_ColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC09B62BBF4ABB008B9D5B /* Hello_ColorApp.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CB4288992BB58D340012E29B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB4288802BB58D300012E29B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB4288872BB58D300012E29B;
-			remoteInfo = "Color Clocks";
-		};
-		CB4288A32BB58D340012E29B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB4288802BB58D300012E29B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB4288872BB58D300012E29B;
-			remoteInfo = "Color Clocks";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CB4288882BB58D300012E29B /* hellocolor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellocolor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4288982BB58D340012E29B /* hellocolorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellocolorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4288A22BB58D340012E29B /* hellocolorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellocolorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBC09A12BBF4ABB008B9D5B /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		CBBC09A22BBF4ABB008B9D5B /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		CBBC09A42BBF4ABB008B9D5B /* ColorRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorRepository.swift; sourceTree = "<group>"; };
 		CBBC09A62BBF4ABB008B9D5B /* ColorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
-		CBBC09A72BBF4ABB008B9D5B /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
-		CBBC09A92BBF4ABB008B9D5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBBC09A72BBF4ABB008B9D5B /* StyleGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGroup.swift; sourceTree = "<group>"; };
 		CBBC09AB2BBF4ABB008B9D5B /* ColorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorService.swift; sourceTree = "<group>"; };
-		CBBC09AD2BBF4ABB008B9D5B /* PalleteCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalleteCellView.swift; sourceTree = "<group>"; };
-		CBBC09AE2BBF4ABB008B9D5B /* PalleteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalleteView.swift; sourceTree = "<group>"; };
+		CBBC09AD2BBF4ABB008B9D5B /* PalleteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalleteCell.swift; sourceTree = "<group>"; };
+		CBBC09AE2BBF4ABB008B9D5B /* PalleteGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalleteGroup.swift; sourceTree = "<group>"; };
 		CBBC09B02BBF4ABB008B9D5B /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		CBBC09B12BBF4ABB008B9D5B /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CBBC09B32BBF4ABB008B9D5B /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CBBC09B52BBF4ABB008B9D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBBC09B62BBF4ABB008B9D5B /* Color_ClocksApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color_ClocksApp.swift; sourceTree = "<group>"; };
+		CBBC09B62BBF4ABB008B9D5B /* Hello_ColorApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello_ColorApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CB4288852BB58D300012E29B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB4288952BB58D340012E29B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB42889F2BB58D340012E29B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -97,10 +62,15 @@
 			isa = PBXGroup;
 			children = (
 				CB4288882BB58D300012E29B /* hellocolor.app */,
-				CB4288982BB58D340012E29B /* hellocolorTests.xctest */,
-				CB4288A22BB58D340012E29B /* hellocolorUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6A46E52BC44C140028A9F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		CBBC09A32BBF4ABB008B9D5B /* Extension */ = {
@@ -124,17 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				CBBC09A62BBF4ABB008B9D5B /* ColorStyle.swift */,
-				CBBC09A72BBF4ABB008B9D5B /* Style.swift */,
+				CBBC09A72BBF4ABB008B9D5B /* StyleGroup.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		CBBC09AA2BBF4ABB008B9D5B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CBBC09A92BBF4ABB008B9D5B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		CBBC09AC2BBF4ABB008B9D5B /* Service */ = {
@@ -148,8 +110,8 @@
 		CBBC09AF2BBF4ABB008B9D5B /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				CBBC09AD2BBF4ABB008B9D5B /* PalleteCellView.swift */,
-				CBBC09AE2BBF4ABB008B9D5B /* PalleteView.swift */,
+				CBBC09AD2BBF4ABB008B9D5B /* PalleteCell.swift */,
+				CBBC09AE2BBF4ABB008B9D5B /* PalleteGroup.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -175,15 +137,15 @@
 		CBBC09B72BBF4ABB008B9D5B /* hellocolor */ = {
 			isa = PBXGroup;
 			children = (
+				CBBC09B22BBF4ABB008B9D5B /* View */,
+				CBBC09A82BBF4ABB008B9D5B /* Model */,
+				CBBC09B42BBF4ABB008B9D5B /* View Model */,
+				CBBC09AC2BBF4ABB008B9D5B /* Service */,
 				CBBC09A32BBF4ABB008B9D5B /* Extension */,
 				CBBC09A52BBF4ABB008B9D5B /* Helpers */,
-				CBBC09A82BBF4ABB008B9D5B /* Model */,
-				CBBC09AA2BBF4ABB008B9D5B /* Preview Content */,
-				CBBC09AC2BBF4ABB008B9D5B /* Service */,
-				CBBC09B22BBF4ABB008B9D5B /* View */,
-				CBBC09B42BBF4ABB008B9D5B /* View Model */,
 				CBBC09B52BBF4ABB008B9D5B /* Assets.xcassets */,
-				CBBC09B62BBF4ABB008B9D5B /* Color_ClocksApp.swift */,
+				CBBC09B62BBF4ABB008B9D5B /* Hello_ColorApp.swift */,
+				CB6A46E52BC44C140028A9F6 /* Preview Content */,
 			);
 			path = hellocolor;
 			sourceTree = "<group>";
@@ -208,42 +170,6 @@
 			productReference = CB4288882BB58D300012E29B /* hellocolor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CB4288972BB58D340012E29B /* hellocolorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB4288AF2BB58D340012E29B /* Build configuration list for PBXNativeTarget "hellocolorTests" */;
-			buildPhases = (
-				CB4288942BB58D340012E29B /* Sources */,
-				CB4288952BB58D340012E29B /* Frameworks */,
-				CB4288962BB58D340012E29B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB42889A2BB58D340012E29B /* PBXTargetDependency */,
-			);
-			name = hellocolorTests;
-			productName = "Color ClocksTests";
-			productReference = CB4288982BB58D340012E29B /* hellocolorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CB4288A12BB58D340012E29B /* hellocolorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB4288B22BB58D340012E29B /* Build configuration list for PBXNativeTarget "hellocolorUITests" */;
-			buildPhases = (
-				CB42889E2BB58D340012E29B /* Sources */,
-				CB42889F2BB58D340012E29B /* Frameworks */,
-				CB4288A02BB58D340012E29B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB4288A42BB58D340012E29B /* PBXTargetDependency */,
-			);
-			name = hellocolorUITests;
-			productName = "Color ClocksUITests";
-			productReference = CB4288A22BB58D340012E29B /* hellocolorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,14 +182,6 @@
 				TargetAttributes = {
 					CB4288872BB58D300012E29B = {
 						CreatedOnToolsVersion = 15.3;
-					};
-					CB4288972BB58D340012E29B = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = CB4288872BB58D300012E29B;
-					};
-					CB4288A12BB58D340012E29B = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = CB4288872BB58D300012E29B;
 					};
 				};
 			};
@@ -281,8 +199,6 @@
 			projectRoot = "";
 			targets = (
 				CB4288872BB58D300012E29B /* hellocolor */,
-				CB4288972BB58D340012E29B /* hellocolorTests */,
-				CB4288A12BB58D340012E29B /* hellocolorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,22 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBC09BD2BBF4ABB008B9D5B /* Preview Assets.xcassets in Resources */,
 				CBBC09C42BBF4ABB008B9D5B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB4288962BB58D340012E29B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB4288A02BB58D340012E29B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,44 +224,17 @@
 				CBBC09C32BBF4ABB008B9D5B /* HomeViewModel.swift in Sources */,
 				CBBC09C22BBF4ABB008B9D5B /* HomeView.swift in Sources */,
 				CBBC09B82BBF4ABB008B9D5B /* Color.swift in Sources */,
-				CBBC09BF2BBF4ABB008B9D5B /* PalleteCellView.swift in Sources */,
+				CBBC09BF2BBF4ABB008B9D5B /* PalleteCell.swift in Sources */,
 				CBBC09C12BBF4ABB008B9D5B /* ColorView.swift in Sources */,
 				CBBC09BB2BBF4ABB008B9D5B /* ColorStyle.swift in Sources */,
-				CBBC09C02BBF4ABB008B9D5B /* PalleteView.swift in Sources */,
+				CBBC09C02BBF4ABB008B9D5B /* PalleteGroup.swift in Sources */,
 				CBBC09B92BBF4ABB008B9D5B /* Text.swift in Sources */,
-				CBBC09BC2BBF4ABB008B9D5B /* Style.swift in Sources */,
-				CBBC09C52BBF4ABB008B9D5B /* Color_ClocksApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB4288942BB58D340012E29B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB42889E2BB58D340012E29B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CBBC09BC2BBF4ABB008B9D5B /* StyleGroup.swift in Sources */,
+				CBBC09C52BBF4ABB008B9D5B /* Hello_ColorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CB42889A2BB58D340012E29B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB4288872BB58D300012E29B /* hellocolor */;
-			targetProxy = CB4288992BB58D340012E29B /* PBXContainerItemProxy */;
-		};
-		CB4288A42BB58D340012E29B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB4288872BB58D300012E29B /* hellocolor */;
-			targetProxy = CB4288A32BB58D340012E29B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CB4288AA2BB58D340012E29B /* Debug */ = {
@@ -544,82 +418,6 @@
 			};
 			name = Release;
 		};
-		CB4288B02BB58D340012E29B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4PAFAH6Y46;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "JoshBeck.Color-ClocksTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellocolor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hellocolor";
-			};
-			name = Debug;
-		};
-		CB4288B12BB58D340012E29B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4PAFAH6Y46;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "JoshBeck.Color-ClocksTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellocolor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hellocolor";
-			};
-			name = Release;
-		};
-		CB4288B32BB58D340012E29B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4PAFAH6Y46;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "JoshBeck.Color-ClocksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Color Clocks";
-			};
-			name = Debug;
-		};
-		CB4288B42BB58D340012E29B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4PAFAH6Y46;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "JoshBeck.Color-ClocksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Color Clocks";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -637,24 +435,6 @@
 			buildConfigurations = (
 				CB4288AD2BB58D340012E29B /* Debug */,
 				CB4288AE2BB58D340012E29B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB4288AF2BB58D340012E29B /* Build configuration list for PBXNativeTarget "hellocolorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB4288B02BB58D340012E29B /* Debug */,
-				CB4288B12BB58D340012E29B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB4288B22BB58D340012E29B /* Build configuration list for PBXNativeTarget "hellocolorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB4288B32BB58D340012E29B /* Debug */,
-				CB4288B42BB58D340012E29B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 //
-//  PalleteCellView.swift
-//  Color Clocks
+//  PalleteCell.swift
+//  Hello Color
 //
 //  Created by Josh Beck on 3/28/24.
 //

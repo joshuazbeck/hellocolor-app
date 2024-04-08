@@ -1,18 +1,18 @@
 //
-//  PalleteView.swift
-//  Color Clocks
+//  PalleteGroup.swift
+//  Hello Color
 //
 //  Created by Josh Beck on 3/28/24.
 //
 
 import SwiftUI
 
-struct PalleteView: View {
-    @Binding var styles: Style
+struct PalleteGroup: View {
+    @Binding var styles: StyleGroup
     var body: some View {
         HStack {
             Spacer()
-            ForEach($styles.styleMap, id: \.self) { colorStyle in
+            ForEach($styles.properties, id: \.self) { colorStyle in
                 PalleteCellView(colorStyle: colorStyle)
                 Spacer()
             }

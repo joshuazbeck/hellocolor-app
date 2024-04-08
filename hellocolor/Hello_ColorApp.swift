@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Color_ClocksApp: App {
+struct Hello_ColorApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()

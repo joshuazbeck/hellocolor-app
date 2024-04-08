@@ -1,6 +1,6 @@
 //
 //  ColorService.swift
-//  Color Clocks
+//  Hello Color
 //
 //  Created by Josh Beck on 3/28/24.
 //
@@ -8,9 +8,13 @@
 import Foundation
 
 class ColorService {
+    
+    // Statically accessible version of the class
     public static let standard = ColorService()
-    internal var previousPallete = -1
-    public func getRandomStyle() -> Style {
+    
+    // Previous pallete index
+    internal var previousPallete: Int? = nil
+    public func getRandomStyle() -> StyleGroup {
         let repository = ColorRepository()
         let palletes = repository.palletes
         

@@ -1,6 +1,6 @@
 //
-//  Style.swift
-//  Color Clocks
+//  StyleGroup.swift
+//  Hello Color
 //
 //  Created by Josh Beck on 3/28/24.
 //
@@ -8,7 +8,8 @@
 import Foundation
 
 /// Holds a singular style element made up of individual color style components
-class Style: Identifiable {
+class StyleGroup: Identifiable {
+    
     var primary: ColorStyle
     var secondary: ColorStyle
     var tertiary: ColorStyle
@@ -21,8 +22,9 @@ class Style: Identifiable {
         self.tertiary = tertiary
         self.background = background
         self.accent = accent
-        styleMap = [primary, secondary, tertiary, background, accent]
+        properties = [primary, secondary, tertiary, background, accent]
     }
     
-    public var styleMap: [ColorStyle]
+    // An array version of the various styles which is used for iterating later
+    public var properties: [ColorStyle]
 }

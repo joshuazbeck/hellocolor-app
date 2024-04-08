@@ -1,6 +1,6 @@
 //
 //  HomeView.swift
-//  Color Clocks
+//  Hello Color
 //
 //  Created by Josh Beck on 3/28/24.
 //
@@ -18,64 +18,26 @@ struct HomeView: View {
             ZStack {
                 
                 List {
-                    Section("Color Scheme") {
+                    Section("Color Scheme Preview") {
                         VStack(alignment: .center) {
-                            PalleteView(styles: $viewModel.styles)
+                            PalleteGroup(styles: $viewModel.styles)
                         }
                     }
                     
                     Section("Colors") {
                         
-                        // Primary
-                        NavigationLink(destination: ColorView(style: viewModel.styles.primary)) {
-                            HStack {
-                                viewModel.styles.primary.color
-                                    .frame(width: 20)
-                                    .clipShape(Circle())
-                                Text("Primary")
-                            }
-                        }
-                        
-                        // Secondary
-                        NavigationLink(destination: ColorView(style: viewModel.styles.secondary)) {
-                            HStack {
-                                viewModel.styles.secondary.color
-                                    .frame(width: 20)
-                                    .clipShape(Circle())
-                                Text("Secondary")
-                            }
-                        }
-                        
-                        // Tertiary
-                        NavigationLink(destination: ColorView(style: viewModel.styles.tertiary)) {
-                            HStack {
-                                viewModel.styles.tertiary.color
-                                    .frame(width: 20)
-                                    .clipShape(Circle())
-                                Text("Tertiary")
-                            }
-                        }
-                        
-                        // Background
-                        NavigationLink(destination: ColorView(style: viewModel.styles.background)) {
-                            HStack {
-                                viewModel.styles.background.color
-                                    .frame(width: 20)
-                                    .clipShape(Circle())
-                                Text("Background")
-                            }
-                        }
-                        
-                        // Accent
-                        NavigationLink(destination: ColorView(style: viewModel.styles.accent)) {
-                            HStack {
-                                viewModel.styles.accent.color
-                                    .frame(width: 20)
-                                    .clipShape(Circle())
-                                Text("Accent")
+                        ForEach(viewModel.styles.properties) { styleGroup in
+                            NavigationLink(destination: ColorView(style: styleGroup)) {
+                                HStack {
+                                    styleGroup.color
+                                        .frame(width: 20)
+                                        .clipShape(Circle())
+                                    Text(styleGroup.style.rawValue)
+                                }
                             }
                         }
                     }
+                    
                     Section("Settings") {
                         Section {
                             Toggle("Dark Mode", isOn: $darkMode)
@@ -84,12 +46,13 @@ struct HomeView: View {
                    
                 }
                 .preferredColorScheme(darkMode ? .dark : .light)
-                .navigationTitle("Palettelyk")
+                .navigationTitle("Hello Color")
                 bottomButton
             }
         }
     }
     
+    // A view builder is
     @ViewBuilder
     var bottomButton: some View {
         VStack {
